@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.example.TicTacToe.model.Player</OriginalElement>
+  <nodes>
+    <node x="0.0" y="79.0">javax.persistence.Entity</node>
+    <node x="307.5" y="79.0">javax.persistence.Table</node>
+    <node x="183.5" y="158.0">com.example.TicTacToe.model.Player</node>
+    <node x="98.00000000000001" y="79.0">com.example.TicTacToe.DTO.PlayerDTO</node>
+    <node x="50.5" y="0.0">javax.persistence.MappedSuperclass</node>
+    <node x="217.5" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.TicTacToe.model.Player" target="javax.persistence.Entity">
+      <point x="-30.0" y="-14.5" />
+      <point x="193.5" y="138.0" />
+      <point x="39.0" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.example.TicTacToe.model.Player" target="javax.persistence.Table">
+      <point x="30.0" y="-14.5" />
+      <point x="253.5" y="138.0" />
+      <point x="346.0" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.example.TicTacToe.DTO.PlayerDTO" target="javax.persistence.MappedSuperclass">
+      <point x="-26.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.example.TicTacToe.model.Player" target="java.io.Serializable">
+      <point x="10.0" y="-14.5" />
+      <point x="233.5" y="128.0" />
+      <point x="297.0" y="128.0" />
+      <point x="26.5" y="14.5" />
+    </edge>
+    <edge source="com.example.TicTacToe.DTO.PlayerDTO" target="java.io.Serializable">
+      <point x="26.0" y="-14.5" />
+      <point x="176.0" y="54.0" />
+      <point x="244.0" y="54.0" />
+      <point x="-26.5" y="14.5" />
+    </edge>
+    <edge source="com.example.TicTacToe.model.Player" target="com.example.TicTacToe.DTO.PlayerDTO">
+      <point x="-10.0" y="-14.5" />
+      <point x="213.5" y="128.0" />
+      <point x="150.0" y="128.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="15.5" y="-61.0" />
+  <SelectedNodes>
+    <node>com.example.TicTacToe.model.Player</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
